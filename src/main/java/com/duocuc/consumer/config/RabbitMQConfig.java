@@ -9,6 +9,6 @@ public class RabbitMQConfig {
 
     @Bean
     public Queue myQueue() {
-        return new Queue("myQueue", true);
+        return new Queue("testQueue", true);
     }
 }
